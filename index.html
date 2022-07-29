@@ -34,8 +34,122 @@
       }
     </style>
   </head>
-  <body>
-    <main></main>
+  <body class="text-neutral-900 bg-neutral-300">
+    <main>
+      <h1 class="app-header">Spli<br />tter</h1>
+
+      <section class="tip-form | p-600 bg-neutral-100">
+        <form action="">
+          <div class="even-columns">
+            <div class="input-col | flow">
+              <div class="form-group">
+                <label for="bill" class="form-label">Bill</label>
+                <div class="form-group" style="--flow-spacer: 0" data-success>
+                  <img
+                    src="./images/icon-dollar.svg"
+                    alt=""
+                    srcset=""
+                    class="form-icon"
+                  />
+                  <input
+                    type="number"
+                    name="bill"
+                    id="bill"
+                    min="0"
+                    step="0.01"
+                    class="form-input text-right"
+                    placeholder="0.00"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="tip" class="form-label">Select Tip %</label>
+                <div class="form-grid" data-success>
+                  <div class="form-cell form-radio">
+                    <input type="radio" name="tip" id="tip5" value="0.05" />
+                    <label for="tip5">5%</label>
+                  </div>
+                  <div class="form-cell form-radio">
+                    <input type="radio" name="tip" id="tip10" value="0.1" />
+                    <label for="tip10">10%</label>
+                  </div>
+                  <div class="form-cell form-radio">
+                    <input type="radio" name="tip" id="tip15" value="0.15" />
+                    <label for="tip15">15%</label>
+                  </div>
+                  <div class="form-cell form-radio">
+                    <input type="radio" name="tip" id="tip25" value="0.25" />
+                    <label for="tip25">25%</label>
+                  </div>
+                  <div class="form-cell form-radio">
+                    <input type="radio" name="tip" id="tip50" value="0.5" />
+                    <label for="tip50">50%</label>
+                  </div>
+                  <div class="form-cell">
+                    <label for="tipCustom" class="visually-hidden"
+                      >Vustom</label
+                    >
+                    <input
+                      type="number"
+                      name="tip-custom"
+                      id="tipCustom"
+                      class="form-input"
+                      min="0"
+                      step="0.01"
+                      placeholder="Custom"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="numberOfPeople" class="form-label"
+                  >Number of People</label
+                >
+                <div class="form-group" style="--flow-spacer: 0" data-error>
+                  <img
+                    src="./images/icon-person.svg"
+                    alt=""
+                    srcset=""
+                    class="form-icon"
+                  />
+                  <input
+                    type="number"
+                    name="numberOfPeople"
+                    id="numberOfPeople"
+                    min="1"
+                    step="1"
+                    class="form-input text-right"
+                    placeholder="0"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- ./flow -->
+            <div
+              class="result-col | flow text-neutral-100 bg-neutral-900 p-600"
+            >
+              <div class="result-grid">
+                <p class="result-amount-label">
+                  Tip Amount<br /><span class="text-primary-400 fs-300"
+                    >/ person</span
+                  >
+                </p>
+                <p class="result-amount">$4.27</p>
+                <p class="result-total-label">
+                  Total<br /><span class="text-primary-400 fs-300"
+                    >/ person</span
+                  >
+                </p>
+                <p class="result-total">$32.79</p>
+              </div>
+              <button class="form-button" type="submit">Reset</button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
 
     <div class="swatches">
       <div class="bg-primary-400">&nbsp;</div>
