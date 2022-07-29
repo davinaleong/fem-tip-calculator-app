@@ -60,6 +60,30 @@
 
 /** Content **/
 /** Content - General Styling **/
+body {
+  font-size: var(--fs-base);
+  font-family: var(--ff-body);
+  font-weight: var(--fw-regular);
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 2em;
+  justify-items: center;
+  align-items: center;
+  padding: var(--size-400);
+}
+
+.flow * + * {
+  margin-top: var(--flow-spacer, 1em);
+}
+
+input[type=radio],
+input[type=checkbox],
+input[type=submit],
+select,
+button {
+  cursor: pointer;
+}
 /** Content - End **/
 
 /** Utility **/
