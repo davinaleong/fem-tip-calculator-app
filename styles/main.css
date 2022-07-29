@@ -219,8 +219,8 @@ main {
 
 .result-col {
   display: grid;
-  grid-template-rows: 1fr 3.5em;
-  gap: 10em;
+  grid-template-rows: 0.5fr 1fr 3.5em;
+  gap: var(--size-400);
 }
 
 .result-grid {
@@ -229,6 +229,10 @@ main {
   grid-template-columns: auto 10em;
   gap: var(--size-400);
   width: 100%;
+}
+
+.form-status {
+  align-self: end;
 }
 
 .form-button {
