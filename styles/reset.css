@@ -66,6 +66,7 @@ select {
   font: inherit;
 }
 
+label,
 input[type="radio"],
 input[type="checkbox"],
 input[type="submit"],
