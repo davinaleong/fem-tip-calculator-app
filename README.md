@@ -2,7 +2,7 @@
 
 Another simple challenge from Frontend Mentor.
 
-The challenge can be found [here](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
+The challenge can be found [here](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX).
 
 Demo page can be found [here](https://davinaleong.github.io/fem-tip-calculator-app/)!
 
