@@ -120,7 +120,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   margin-inline: auto;
-  margin-bottom: var(--size-600);
+  margin-bottom: var(--size-800);
   font-size: var(--size-600);
 }
 
