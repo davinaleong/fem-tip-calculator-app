@@ -16,6 +16,6 @@ Demo page can be found [here](https://davinaleong.github.io/fem-tip-calculator-a
 
 ## About this Project
 
-I wanted to keep this project as simple as possible with minimal dependencies. This project just uses HTML, CSS & JS. No dependencies like SASS or jQuery.
+I wanted to keep this project as simple as possible with minimal dependencies. This project just uses HTML, CSS & JS. This project uses [NumeralJS](http://numeraljs.com/) for calculation and formatting of the tip amounts.
 
 I like to challenge myself to keep solutions to Frontend Mentor projects as simple as possible, so I can use them in my server-side-rendered projects.
